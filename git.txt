@@ -1,0 +1,20 @@
+git add <file> 添加文件到缓存区
+git commit -m "message" 完成
+git status 工作区状态
+git diff 查看修改内容
+git reset --hard commit_id 在版本之间穿梭
+git log 查看提交历史
+git reflog 查看命令历史
+git checkout -- file 直接丢弃工作区修改
+git reset HEAD <file> 放弃暂存区的内容
+git rm 删除一个文件
+git remote add origin git@github.com:YTSakuya/learngit.git 关联远程库
+git push -u origin master 推送master分支
+git push origin master
+git clone git@github.com:YTSakuya/learngit.git 从远程库克隆
+git branch 查看分支
+git branch <name> 创建分支
+git checkout <name> 切换分支
+git checkout -b <name> 创建+切换分支
+git merge <name> 合并某分支到当前分支
+git branch -d <name> 删除分支
